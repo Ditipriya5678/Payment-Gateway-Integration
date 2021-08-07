@@ -1,0 +1,115 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+
+.container-fluid {
+    padding: 7% 15%;
+}
+
+/*Section Heading */
+.colored-section {
+    background-color: rgb(218, 67, 197);
+    color: white;
+}
+
+/* Navigation Bar */
+.navbar {
+    padding: 0 0 4.5rem 0;
+}
+
+.navbar-brand {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 2.5rem;
+    font-weight: bold;
+    padding-left: 6%;
+}
+
+.nav-item {
+    padding: 0 18px 0 18px;
+}
+
+.d1 {
+    text-align: center;
+}
+.nav-link {
+    font-size: 1.2rem;
+    font-family: 'Montserrat-Light', sans-serif;
+}
+
+#title .container-fluid {
+    padding: 3% 0% 7%;
+    text-align: left;
+}
+
+.image {
+    width: 800px;
+}
+
+.image-char {
+    width: 855px;
+}
+
+.support {
+    width: 300px;
+}
+
+.white-section {
+    margin: 100px 0 50px 0;
+    text-align: center;
+}
+
+.last-section {
+    background-color: white;
+    padding: 40px 40px 40px 40px;
+    color: black;
+}
+.donate-button {
+    padding-top: 20px;
+    margin: auto;
+}
+
+.social-icon {
+    margin: 20px 10px;
+    font-size: 20px;
+} 
+
+.quotes {
+    text-align: center;
+    color: white;
+    margin: 100px 0px 50px 0px; 
+}
+
+input[type=text], select, textarea {
+    width: 100%; /* Full width */
+    padding: 12px; /* Some padding */ 
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+  }
+  
+  /* Style the submit button with a specific background color etc */
+  input[type=submit] {
+    background-color: #11aaaf;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  /* When moving the mouse over the submit button, add a darker green color */
+  input[type=submit]:hover {
+    background-color: #0857be;
+  }
+  
+  /* Add a background color and some padding around the form */
+  .container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+    color: black;
+  }
